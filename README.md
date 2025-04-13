@@ -58,7 +58,7 @@ This repository contains my solutions and experiments for the course assignments
 ## Assignment 2 – Policy Gradient Methods
 
 ### Section 1 – Monte Carlo Policy Gradient (REINFORCE)
-- Environment: CartPole-v1
+- Environment: `CartPole-v1`
 - Implements the REINFORCE algorithm for direct policy optimization
 - Two versions developed:
   - Basic REINFORCE using the return from each episode
@@ -70,7 +70,7 @@ This repository contains my solutions and experiments for the course assignments
   - Evaluation and comparison of both versions in terms of convergence speed and stability
 
 ### Section 2 – Advantage Actor-Critic (A2C)
-- Environment: CartPole-v1
+- Environment: `CartPole-v1`
 - Implements the Actor-Critic algorithm using:
   - Actor network to model the policy
   - Critic network to approximate state-value function
