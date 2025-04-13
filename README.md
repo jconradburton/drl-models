@@ -7,7 +7,7 @@ This repository contains my solutions and experiments for the course assignments
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `From_Q_Learning_to_Deep_Q_Learning.ipynb`  
   Covers the full Assignment 1:  
@@ -24,7 +24,7 @@ This repository contains my solutions and experiments for the course assignments
 
 ---
 
-## 🧠 Assignment 1 – From Q-learning to Deep Q-learning
+## Assignment 1 – From Q-learning to Deep Q-learning
 
 ### Section 1 – Tabular Q-Learning
 - Environment: `FrozenLake-v0`
