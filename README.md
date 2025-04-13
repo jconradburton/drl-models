@@ -9,18 +9,17 @@ This repository contains my solutions and experiments for the course assignments
 
 ## Repository Structure
 
-- `From_Q_Learning_to_Deep_Q_Learning.ipynb`  
-  Covers the full Assignment 1:  
-  - Tabular Q-learning on FrozenLake  
-  - Deep Q-Learning (DQN) on CartPole-v1  
-  - Improved DQN
-  Includes code, explanations, hyperparameter tuning, plots, and performance results.
+- `hw1/From_Q_Learning_to_Deep_Q_Learning.ipynb`  
+  Tabular Q-Learning, DQN, and Improved DQN (Assignment 1)
 
-- `hw2/` *(coming soon)*  
-  [Placeholder for Assignment 2]
+- `hw2/Monte_Carlo_Policy_Gradients.ipynb`  
+  REINFORCE algorithm (Assignment 2)
 
-- `hw3/` *(coming soon)*  
-  [Placeholder for Assignment 3]
+- `hw2/Advantage_Actor-Critic.ipynb`  
+  Advantage Actor-Critic (Assignment 2)
+
+- `hw3/` *(coming soon)*
+
 
 ---
 
@@ -55,3 +54,29 @@ This repository contains my solutions and experiments for the course assignments
   - Plots and performance summary  
 
 ---
+
+## Assignment 2 – Policy Gradient Methods
+
+### Section 1 – Monte Carlo Policy Gradient (REINFORCE)
+- Environment: CartPole-v1
+- Implements the REINFORCE algorithm for direct policy optimization
+- Two versions developed:
+  - Basic REINFORCE using the return from each episode
+  - REINFORCE with a learned baseline (value function approximation) to compute the advantage
+- Includes:
+  - Policy network with softmax output
+  - Value function network for baseline estimation
+  - Gradient ascent updates with variance reduction
+  - Evaluation and comparison of both versions in terms of convergence speed and stability
+
+### Section 2 – Advantage Actor-Critic (A2C)
+- Environment: CartPole-v1
+- Implements the Actor-Critic algorithm using:
+  - Actor network to model the policy
+  - Critic network to approximate state-value function
+- Uses the TD error as an approximation for the advantage estimate, enabling online updates
+- Includes:
+  - Modified training loop with TD target
+  - Shared and separate network structures explored
+  - Performance comparison with both REINFORCE variants
+  - Plots of training rewards and value function estimates
