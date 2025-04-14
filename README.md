@@ -18,7 +18,7 @@ This repository contains my solutions and experiments for the course assignments
 - `hw2/Advantage_Actor_Critic.ipynb`  
   Advantage Actor-Critic (Assignment 2)
 
-- `hw3/Training_Individual_Networks.ipynb`
+- `hw3/Training_Individual_Networks.ipynb`  
   Actor-Critic on additional environments (Assignment 3)
 
 - `hw3/` (coming soon)
