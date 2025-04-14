@@ -18,7 +18,12 @@ This repository contains my solutions and experiments for the course assignments
 - `hw2/Advantage_Actor_Critic.ipynb`  
   Advantage Actor-Critic (Assignment 2)
 
-- `hw3/` *(coming soon)*
+- `hw3/Training_Individual_Networks.ipynb`
+  Actor-Critic on additional environments (Assignment 3)
+
+- `hw3/` (coming soon)
+  
+- `hw3/` (coming soon)
 
 
 ---
@@ -80,3 +85,40 @@ This repository contains my solutions and experiments for the course assignments
   - Shared and separate network structures explored
   - Performance comparison with both REINFORCE variants
   - Plots of training rewards and value function estimates
+
+---
+
+## Assignment 3 – Meta and Transfer Learning
+
+### Section 1 – Training Individual Networks
+- Environments: `CartPole-v1`, `Acrobot-v1`, `MountainCarContinuous-v0`
+- Extended the actor-critic architecture from HW2 to each environment individually
+- Standardized input and output dimensions across tasks using:
+  - Input padding (with zeros)
+  - Output padding (with unused "dummy" actions)
+- Includes:
+  - Separate networks with at least one hidden layer each
+  - Training time and convergence statistics for each environment
+
+### Section 2 – Fine-Tuning a Pretrained Model
+- Performed transfer learning by fine-tuning a model trained on one task for another
+- Pairs: `Acrobot → CartPole`, `CartPole → MountainCar`
+- Method:
+  - Reused pretrained weights from the source model
+  - Reinitialized output layer for the target environment
+- Includes:
+  - Training stats and comparison to training from scratch
+  - Analysis of whether fine-tuning led to faster convergence
+
+### Section 3 – Progressive Networks for Transfer Learning
+- Implemented a simplified version of Progressive Networks
+- Transfer learning settings:
+  - `{Acrobot, MountainCar} → CartPole`
+  - `{CartPole, Acrobot} → MountainCar`
+- Used frozen source networks and connected them to a fresh target network
+- Includes:
+  - Training architecture and layer-matching explanation
+  - Statistics on training iterations and time
+  - Evaluation of whether transfer learning improved convergence
+
+---
