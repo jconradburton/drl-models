@@ -21,10 +21,11 @@ This repository contains my solutions and experiments for the course assignments
 - `hw3/Training_Individual_Networks.ipynb`  
   Actor-Critic on additional environments (Assignment 3)
 
-- `hw3/Fine_Tuning_an_Existing_Model`  
+- `hw3/Fine_Tuning_an_Existing_Model.ipynb`  
   Fine-Tuning previously trained models (Assignment 3)
   
-- `hw3/` (coming soon)
+- `hw3/Transfer_Learning.ipynb`  
+  Progressive Network transfer learning (Assignment 3)
 
 
 ---
