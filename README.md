@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning – Homework Assignments  
+# Deep Reinforcement Learning – Assignments  
 **Ben-Gurion University of the Negev – Department of Software and Information Systems Engineering**  
 **Course: Deep Reinforcement Learning (DRL)**  
 
