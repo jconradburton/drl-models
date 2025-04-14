@@ -21,7 +21,7 @@ This repository contains my solutions and experiments for the course assignments
 - `hw3/Training_Individual_Networks.ipynb`  
   Actor-Critic on additional environments (Assignment 3)
 
-- `hw3/` (coming soon)
+- `hw3/Fine_Tuning_an_Existing_Model` (Assignment 3)
   
 - `hw3/` (coming soon)
 
@@ -100,7 +100,7 @@ This repository contains my solutions and experiments for the course assignments
   - Separate networks with at least one hidden layer each
   - Training time and convergence statistics for each environment
 
-### Section 2 – Fine-Tuning a Pretrained Model
+### Section 2 – Fine-Tuning an Existing Model
 - Performed transfer learning by fine-tuning a model trained on one task for another
 - Pairs: `Acrobot → CartPole`, `CartPole → MountainCar`
 - Method:
