@@ -13,7 +13,7 @@ This repository contains my solutions and experiments for the course assignments
   Tabular Q-Learning, DQN, and Improved DQN (Assignment 1)
 
 - `hw2/Monte_Carlo_Policy_Gradients.ipynb`  
-  REINFORCE algorithm (Assignment 2)
+  REINFORCE and REINFORCE with baseline algorithms (Assignment 2)
 
 - `hw2/Advantage_Actor_Critic.ipynb`  
   Advantage Actor-Critic (Assignment 2)
@@ -62,7 +62,7 @@ This repository contains my solutions and experiments for the course assignments
 - Implements the REINFORCE algorithm for direct policy optimization
 - Two versions developed:
   - Basic REINFORCE using the return from each episode
-  - REINFORCE with a learned baseline (value function approximation) to compute the advantage
+  - REINFORCE with a baseline (value function approximation) to compute the advantage
 - Includes:
   - Policy network with softmax output
   - Value function network for baseline estimation
