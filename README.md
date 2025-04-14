@@ -15,7 +15,7 @@ This repository contains my solutions and experiments for the course assignments
 - `hw2/Monte_Carlo_Policy_Gradients.ipynb`  
   REINFORCE algorithm (Assignment 2)
 
-- `hw2/Advantage_Actor-Critic.ipynb`  
+- `hw2/Advantage_Actor_Critic.ipynb`  
   Advantage Actor-Critic (Assignment 2)
 
 - `hw3/` *(coming soon)*
