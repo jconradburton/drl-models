@@ -9,24 +9,23 @@ This repository contains my solutions and experiments for the course assignments
 
 ## Repository Structure
 
-- `hw1/From_Q_Learning_to_Deep_Q_Learning.ipynb`  
-  Tabular Q-Learning, DQN, and Improved DQN (Assignment 1)
+- `hw1/`
+  - `From_Q_Learning_to_Deep_Q_Learning.ipynb`  
+    Tabular Q-Learning, DQN, and Improved DQN
 
-- `hw2/Monte_Carlo_Policy_Gradients.ipynb`  
-  REINFORCE and REINFORCE with baseline algorithms (Assignment 2)
+- `hw2/`
+  - `Monte_Carlo_Policy_Gradients.ipynb`  
+    REINFORCE and REINFORCE with baseline algorithms
+  - `Advantage_Actor_Critic.ipynb`
+    Advantage Actor-Critic 
 
-- `hw2/Advantage_Actor_Critic.ipynb`  
-  Advantage Actor-Critic (Assignment 2)
-
-- `hw3/Training_Individual_Networks.ipynb`  
-  Actor-Critic on additional environments (Assignment 3)
-
-- `hw3/Fine_Tuning_an_Existing_Model.ipynb`  
-  Fine-Tuning previously trained models (Assignment 3)
-  
-- `hw3/Transfer_Learning.ipynb`  
-  Progressive Network transfer learning (Assignment 3)
-
+- `hw3/`
+  - `Training_Individual_Networks.ipynb`  
+    Actor-Critic on additional environments
+  - `Fine_Tuning_an_Existing_Model.ipynb`
+    Fine-Tuning previously trained models
+  - `Transfer_Learning.ipynb` 
+    Progressive network transfer learning
 
 ---
 
